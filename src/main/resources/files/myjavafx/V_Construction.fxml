@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="1142.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaDevProject.V_ConstructionController">
+    <children>
+        <Button layoutX="945.0" layoutY="34.0" mnemonicParsing="false" onAction="#initialize" text="Refresh" />
+        <Label layoutX="170.0" layoutY="34.0" prefHeight="56.0" prefWidth="111.0" text="BetonCamion">
+            <font>
+                <Font name="Arial Bold" size="15.0" />
+            </font>
+        </Label>
+       <Button fx:id="BetonCamion1" layoutX="158.0" layoutY="90.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BetonCamion2" layoutX="158.0" layoutY="205.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BetonCamion3" layoutX="158.0" layoutY="326.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BetonCamion4" layoutX="158.0" layoutY="440.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BetonCamion5" layoutX="158.0" layoutY="554.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Label layoutX="337.0" layoutY="34.0" prefHeight="56.0" prefWidth="97.0" text="Compacteur">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="Compacteurs1" layoutX="318.0" layoutY="90.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Compacteurs2" layoutX="318.0" layoutY="205.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Compacteurs3" layoutX="318.0" layoutY="326.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Compacteurs4" layoutX="318.0" layoutY="440.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Compacteurs5" layoutX="318.0" layoutY="554.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Label layoutX="517.0" layoutY="34.0" prefHeight="56.0" prefWidth="50.0" text="Grues">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="Grues1" layoutX="474.0" layoutY="90.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Grues2" layoutX="474.0" layoutY="205.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Grues3" layoutX="474.0" layoutY="326.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Grues4" layoutX="474.0" layoutY="440.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Grues5" layoutX="474.0" layoutY="554.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Label layoutX="646.0" layoutY="34.0" prefHeight="56.0" prefWidth="125.0" text="Pelle mecanique">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="Pellesmecanique1" layoutX="641.0" layoutY="90.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pellesmecanique2" layoutX="641.0" layoutY="205.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pellesmecanique3" layoutX="641.0" layoutY="326.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pellesmecanique4" layoutX="641.0" layoutY="440.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pellesmecanique5" layoutX="641.0" layoutY="554.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Label layoutX="852.0" layoutY="34.0" prefHeight="56.0" prefWidth="50.0" text="Grues">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="Pompbeton1" layoutX="809.0" layoutY="90.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pompbeton2" layoutX="809.0" layoutY="205.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pompbeton3" layoutX="809.0" layoutY="326.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pompbeton4" layoutX="809.0" layoutY="440.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="Pompbeton5" layoutX="809.0" layoutY="554.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="136.0" styleClass="button-28" stylesheets="@style.css" />
+
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="1142.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaDevProject.VehiculeController">
+   <children>
+      <Label layoutX="202.0" layoutY="457.0" prefHeight="56.0" prefWidth="99.0" text="Avion">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="AvionButton1" layoutX="208.0" layoutY="531.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="AvionButton3" layoutX="439.0" layoutY="531.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="AvionButton2" layoutX="322.0" layoutY="531.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Label layoutX="202.0" layoutY="33.0" prefHeight="56.0" prefWidth="99.0" text="Camion">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="CamionButton1" layoutX="221.0" layoutY="89.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton2" layoutX="335.0" layoutY="89.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton3" layoutX="452.0" layoutY="89.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton4" layoutX="570.0" layoutY="89.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton5" layoutX="699.0" layoutY="89.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton6" layoutX="221.0" layoutY="155.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton7" layoutX="335.0" layoutY="155.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton8" layoutX="452.0" layoutY="155.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton9" layoutX="570.0" layoutY="155.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton10" layoutX="699.0" layoutY="155.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton11" layoutX="221.0" layoutY="222.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton12" layoutX="335.0" layoutY="222.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton13" layoutX="452.0" layoutY="222.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton14" layoutX="570.0" layoutY="222.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton15" layoutX="699.0" layoutY="222.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton16" layoutX="221.0" layoutY="293.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton17" layoutX="335.0" layoutY="293.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton18" layoutX="452.0" layoutY="293.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton19" layoutX="570.0" layoutY="293.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="CamionButton20" layoutX="699.0" layoutY="293.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Label layoutX="202.0" layoutY="344.0" prefHeight="56.0" prefWidth="99.0" text="Bateau">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="BateauButton1" layoutX="221.0" layoutY="400.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BateauButton2" layoutX="335.0" layoutY="400.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BateauButton4" layoutX="570.0" layoutY="400.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BateauButton3" layoutX="452.0" layoutY="400.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button fx:id="BateauButton5" layoutX="699.0" layoutY="400.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="button-28" stylesheets="@style.css" />
+      <Button layoutX="877.0" layoutY="33.0" mnemonicParsing="false" onAction="#initialize" text="Refresh" />
+
+
+   </children>
+</AnchorPane>

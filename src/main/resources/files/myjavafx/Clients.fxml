@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1142.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaDevProject.ClientsController">
+   <children>
+      <Label layoutX="110.0" layoutY="36.0" styleClass="title-label" text="Demande de notre service" />
+      <TableView fx:id="tableprospect" layoutX="85.0" layoutY="80.0" prefHeight="200.0" prefWidth="1042.0" styleClass="table-view">
+         <columns>
+            <TableColumn prefWidth="50.0" text="Id">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectId" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="44.0" text="Name">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectName" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="54.0" text="Prenam">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectPrenam" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="34.0" text="Sex">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectSex" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="42.0" text="Email">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectEmail" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="68.0" text="Telephone">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectTelephone" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="121.0" text="Address">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectAddress" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="56.0" text="City">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectCity" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="82.0" text="DateInscription">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectDateInscription" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="96.0" text="ServiceProposer">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectServiceProposer" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="68.0" text="DateService">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectDateService" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="74.0" text="TypeService">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectTypeService" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="descriptionColumn" prefWidth="272.0" text="Description">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectDescription" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="9.0" text="Status">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ProspectStatus" />
+               </cellValueFactory>
+            </TableColumn>
+         </columns>
+      </TableView>
+      <Label layoutX="96.0" layoutY="370.0" styleClass="title-label" text="Service accepter" />
+      <TableView fx:id="tableClient" layoutX="50.0" layoutY="400.0" prefHeight="200.0" prefWidth="1042.0" styleClass="table-view">
+         <columns>
+            <TableColumn prefWidth="50.0" text="Id">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientId" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="66.0" text="Name">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientName" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="57.0" text="Prenam">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientPrenam" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="44.0" text="Sex">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientSex" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="64.0" text="Email">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientEmail" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="68.0" text="Telephone">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientTelephone" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="71.0" text="Address">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientAddress" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="45.0" text="City">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientCity" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="110.0" text="DateInscription">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientDateInscription" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="94.0" text="ServiceProposer">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientServiceProposer" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="88.0" text="DateService">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientDateService" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="85.0" text="TypeService">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientTypeService" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="descriptionColumn1" prefWidth="120.0" text="Description">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientDescription" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="94.0" text="Status">
+               <cellValueFactory>
+                  <PropertyValueFactory property="ClientStatus" />
+               </cellValueFactory>
+            </TableColumn>
+         </columns>
+      </TableView>
+      <ChoiceBox fx:id="choiceBox" layoutX="197.0" layoutY="318.0" prefWidth="150.0" />
+      <Button layoutX="366.0" layoutY="312.0" onAction="#handleUpdateButton" styleClass="button" text="Update Status" />
+      <Button layoutX="804.0" layoutY="306.0" onAction="#showRefusedClientsTable" prefHeight="22.0" prefWidth="168.0" styleClass="button" text="Client Refused Table" />
+      <Button layoutX="950.0" layoutY="30.0" onAction="#refreshTable" styleClass="button" text="Refresh" />
+      <TextField fx:id="searchField" layoutX="310.0" layoutY="50.0" prefHeight="28.0" prefWidth="277.0" promptText="Search" styleClass="text-field" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Enregistrement de Prospect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Demander notre service</h1>
+<form id="prospectForm">
+    <input type="text" name="prospectName" placeholder="Nom" required>
+    <input type="text" name="prospectPrenam" placeholder="Prénom" required>
+    <select name="prospectSex" required>
+        <option value="">Sexe...</option>
+        <option value="M">Homme</option>
+        <option value="F">Femme</option>
+    </select>
+    <input type="email" name="prospectEmail" placeholder="Email" required>
+    <input type="text" name="prospectTelephone" placeholder="Téléphone" required>
+    <input type="text" name="prospectAddress" placeholder="Adresse" required>
+    <input type="text" name="prospectCity" placeholder="Ville" required>
+    <input type="text" name="prospectServiceProposer" placeholder="Service proposé" required>
+    <input type="date" name="prospectDateService" required>
+    <input type="text" name="prospectTypeService" placeholder="Type de service" required>
+    <textarea name="prospectDescription" placeholder="Description"></textarea>
+    <select name="prospectStatus" required>
+        <option value="">Statut...</option>
+        <option value="actif">Actif</option>
+        <option value="inactif">Inactif</option>
+    </select>
+    <button type="submit">Enregistrer</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

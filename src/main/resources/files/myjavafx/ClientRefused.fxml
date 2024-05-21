@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="638.0" prefWidth="964.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaDevProject.ClientRefusedController">
+   <children>
+       <TableView fx:id="tableprospectrefused" layoutX="37.0" layoutY="153.0" prefHeight="254.0" prefWidth="1007.0">
+           <columns>
+               <TableColumn prefWidth="50.4000244140625" text="Id">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedId" />
+                   </cellValueFactory>
+               </TableColumn>
+
+               <TableColumn prefWidth="66.4000244140625" text="Name">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedName" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="57.5999755859375" text="Prenam">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedPrenam" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="44.79998779296875" text="Sex">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedSex" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="64.800048828125" text="Email">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedEmail" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="68.79998779296875" text="Telephone">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedTelephone" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="71.20001220703125" text="Address">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedAddress" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="45.5999755859375" text="City">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedCity" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="76.800048828125" text="DateInscription">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedDateInscription" />
+                   </cellValueFactory>
+               </TableColumn>
+
+               <TableColumn prefWidth="92.0" text="ServiceProposer">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedServiceProposer" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="83.99993896484375" text="DateService">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedDateService" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="54.4000244140625" text="TypeService">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedTypeService" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn minWidth="0.0" prefWidth="75.199951171875" text="Description">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedDescription" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="216.0" text="Status">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="RefusedStatus" />
+                   </cellValueFactory>
+               </TableColumn>
+           </columns>
+       </TableView>
+      <Label layoutX="214.0" layoutY="79.0" prefHeight="30.0" prefWidth="272.0" text="Archive des clients refuses">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

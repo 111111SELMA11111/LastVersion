@@ -1,0 +1,142 @@
+/* General root styling for the entire application */
+.root {
+    -fx-background-color: #f5f5f5; /* Minimalist light gray background */
+    -fx-font-family: 'Segoe UI', 'Helvetica', Arial, sans-serif;
+}
+
+/* Title labels with a minimalist look */
+.title-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333; /* Dark gray text */
+    -fx-font-family: "Arial";
+}
+
+/* Primary button styling */
+.button-28 {
+    -fx-background-color: transparent; /* Accent color for primary buttons */
+    -fx-border-width: 2px;
+    -fx-border-color: #1A1A1A; /* Black border */
+    -fx-border-radius: 10px;
+    -fx-text-fill: #1A1A1A; /* Black text */
+    -fx-cursor: hand;
+    -fx-font-family: "Roobert", "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 12px;
+    -fx-alignment: center;
+}
+
+.button-28:disabled {
+    -fx-opacity: 0.5;
+}
+
+.button-28:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #1A1A1A; /* Black background on hover */
+    -fx-translate-y: -2px;
+}
+
+.button-28:pressed {
+    -fx-translate-y: 0;
+}
+
+/* Secondary button styling */
+.button-secondary {
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-color: #606060; /* Gray border */
+    -fx-border-radius: 8px;
+    -fx-text-fill: #606060; /* Gray text */
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 15px;
+}
+
+.button-secondary:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #606060; /* Gray background on hover */
+}
+
+.button-secondary:pressed {
+    -fx-translate-y: 0;
+}
+
+/* General label styling */
+.label {
+    -fx-text-fill: #333; /* Dark gray for text */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* ScrollPane with a minimalist design */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* FlowPane styling */
+.flow-pane {
+    -fx-background-color: #eceff1; /* Light gray background */
+    -fx-padding: 10px;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+}
+
+/* VBox client pane with a subtle border and padding */
+.vbox-client {
+    -fx-spacing: 10;
+    -fx-border-color: #606060; /* Gray border */
+    -fx-border-width: 1;
+    -fx-border-radius: 8px;
+    -fx-background-color: #ffffff; /* White */
+    -fx-padding: 15px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0.2, 0, 4);
+}
+
+/* AnchorPane with a clean white background */
+.anchor-pane {
+    -fx-background-color: #ffffff; /* White */
+}
+
+/* Images with subtle shadow effect */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.3, 0, 4);
+}
+
+/* Minimalist TableView */
+.table-view {
+    -fx-base: #eeeeee;
+    -fx-control-inner-background: #f7f7f7;
+    -fx-background-color: #ffffff;
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 5px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ddd;
+}
+
+.table-view .table-row-cell:filled:selected, .table-view .table-row-cell:filled:selected .text {
+    -fx-background-color: #b0e0e6;
+    -fx-text-fill: #102020;
+}
+
+/* Minimalist buttons */
+.button {
+    -fx-background-color: #1A1A1A; /* Black */
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+    -fx-prompt-text-fill: #666;
+}

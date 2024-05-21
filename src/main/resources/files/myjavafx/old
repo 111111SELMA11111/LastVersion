@@ -1,0 +1,81 @@
+old css
+
+.button-28 {
+
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-color: #1A1A1A;
+    -fx-border-radius: 10px;
+    -fx-text-fill: #3B3B3B;
+    -fx-cursor: hand;
+    -fx-font-family: "Roobert", "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 12px;
+    -fx-alignment: center;
+    -fx-effect: none; /* Remove box-shadow as it's not supported */
+    -fx-pref-width: USE_COMPUTED_SIZE;
+    -fx-pref-height: USE_COMPUTED_SIZE;
+}
+
+
+
+.button-28:disabled {
+    -fx-opacity: 0.5;
+}
+
+.button-28:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #1A1A1A;
+    -fx-translate-y: -2px; /* Adding translate for visual effect instead of shadow */
+}
+
+.button-28:pressed {
+    -fx-translate-y: 0;
+}
+
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #607D8B;
+    -fx-background-color: #FFFFFF;
+}
+
+.button {
+    -fx-background-color: #455A64, linear-gradient(#F5F5F5, #CFD8DC);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.label {
+    -fx-text-fill: #37474F;
+    -fx-font-size: 14px;
+}
+
+.vbox-client {
+    -fx-spacing: 5;
+    -fx-border-color: #B0BEC5;
+    -fx-border-width: 1;
+    -fx-background-color: #CFD8DC;
+    -fx-cursor: hand;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.flow-pane {
+    -fx-background-color: #ECEFF1;
+}
+
+.image-view {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 10, 0.5 , 0 , 2 );
+}
+
+.anchor-pane {
+    -fx-background-color: #FFFFFF;
+}
+
+
